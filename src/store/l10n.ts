@@ -20,7 +20,7 @@ function localizationStore(initialValue: languageData): localizationStoreReturn 
     async changeLanguage(language: string): Promise<void> {
       try {
         if(language !== 'en') {
-          const response = await fetch(`../locale/${language}.json`);
+          const response = await fetch(`${location.pathname}locale/${language}.json`);
           if (response.ok === false) {
             throw new Error(response.statusText);
           }
