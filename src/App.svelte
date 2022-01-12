@@ -21,10 +21,10 @@ l10n.subscribe((languageFile: languageData): void => {
   }
 });
 
-l10n.changeLanguage(targetLanguage);
+l10n.changeLanguage(targetLanguage)
 </script>
 
-{#if $l10n.language_code !== targetLanguage}
+{#if !$l10n.language_code}
   <LoadingMessage/>
 {:else}
   <Content/>

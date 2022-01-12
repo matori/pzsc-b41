@@ -11,20 +11,25 @@ interface localizationStoreReturn {
 }
 
 function localizationStore(initialValue: languageData): localizationStoreReturn {
-  const { subscribe, set } = writable(initialValue);
+  const initialData = Object.assign({}, initialValue, { language_code: '' });
+  const { subscribe, set } = writable(initialData);
 
   return {
     subscribe,
     set,
     async changeLanguage(language: string): Promise<void> {
       try {
-        const response = await fetch(`/locale/${language}.json`);
-        if (response.ok === false) {
-          throw new Error(response.statusText);
+        if(language !== 'en') {
+          const response = await fetch(`../locale/${language}.json`);
+          if (response.ok === false) {
+            throw new Error(response.statusText);
+          }
+          const languageData = await response.json();
+          const data = Object.assign({}, defaultLanguage, languageData);
+          set(data);
+        } else {
+          set(defaultLanguage);
         }
-        const languageData = await response.json();
-        const data = Object.assign({}, defaultLanguage, languageData);
-        set(data);
       } catch (exception) {
         alert('Failed to load the language file. Content will be displayed in English.');
         set(defaultLanguage);
