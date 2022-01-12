@@ -16,7 +16,7 @@
     <div>
       <dt class="Footer-heading">Web page source</dt>
       <dd class="Footer-body">
-        <a href="">GitHub repository</a>
+        <a href="https://github.com/matori/pzsc-b41">GitHub repository</a>
       </dd>
     </div>
     <div>
