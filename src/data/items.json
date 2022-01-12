@@ -1,0 +1,243 @@
+{
+  "skill_books": [
+    {
+      "category": "carpentry",
+      "items": [
+        "skill_book_carpentry_for_beginners",
+        "skill_book_carpentry_for_intermediates",
+        "skill_book_advanced_carpentry",
+        "skill_book_expert_carpentry",
+        "skill_book_master_carpentry"
+      ]
+    },
+    {
+      "category": "cooking",
+      "items": [
+        "skill_book_cooking_for_beginners",
+        "skill_book_cooking_for_intermediates",
+        "skill_book_advanced_cooking",
+        "skill_book_expert_cooking",
+        "skill_book_master_cooking"
+      ]
+    },
+    {
+      "category": "farming",
+      "items": [
+        "skill_book_farming_for_beginners",
+        "skill_book_farming_for_intermediates",
+        "skill_book_advanced_farming",
+        "skill_book_expert_farming",
+        "skill_book_master_farming"
+      ]
+    },
+    {
+      "category": "first_aid",
+      "items": [
+        "skill_book_first_aid_for_beginners",
+        "skill_book_first_aid_for_intermediates",
+        "skill_book_advanced_first_aid",
+        "skill_book_expert_first_aid",
+        "skill_book_master_first_aid"
+      ]
+    },
+    {
+      "category": "electrical",
+      "items": [
+        "skill_book_electricity_for_beginners",
+        "skill_book_electricity_for_intermediates",
+        "skill_book_advanced_electricity",
+        "skill_book_expert_electricity",
+        "skill_book_master_electricity"
+      ]
+    },
+    {
+      "category": "metalworking",
+      "items": [
+        "skill_book_metalwork_for_beginners",
+        "skill_book_metalwork_for_intermediates",
+        "skill_book_advanced_metalwork",
+        "skill_book_expert_metalwork",
+        "skill_book_master_metalwork"
+      ]
+    },
+    {
+      "category": "mechanics",
+      "items": [
+        "skill_book_mechanics_for_beginners",
+        "skill_book_mechanics_for_intermediates",
+        "skill_book_advanced_mechanics",
+        "skill_book_expert_mechanics",
+        "skill_book_master_mechanics"
+      ]
+    },
+    {
+      "category": "tailoring",
+      "items": [
+        "skill_book_tailoring_for_beginners",
+        "skill_book_tailoring_for_intermediates",
+        "skill_book_advanced_tailoring",
+        "skill_book_expert_tailoring",
+        "skill_book_master_tailoring"
+      ]
+    },
+    {
+      "category": "fishing",
+      "items": [
+        "skill_book_fishing_for_beginners",
+        "skill_book_fishing_for_intermediates",
+        "skill_book_advanced_fishing",
+        "skill_book_expert_fishing",
+        "skill_book_master_fishing"
+      ]
+    },
+    {
+      "category": "trapping",
+      "items": [
+        "skill_book_trapping_for_beginners",
+        "skill_book_trapping_for_intermediates",
+        "skill_book_advanced_trapping",
+        "skill_book_expert_trapping",
+        "skill_book_master_trapping"
+      ]
+    },
+    {
+      "category": "foraging",
+      "items": [
+        "skill_book_foraging_for_beginners",
+        "skill_book_foraging_for_intermediates",
+        "skill_book_advanced_foraging",
+        "skill_book_expert_foraging",
+        "skill_book_master_foraging"
+      ]
+    }
+  ],
+  "recipe_magazines": [
+    {
+      "category": "cooking",
+      "items": [
+        "recipe_magazine_good_cooking_magazine_vol_1",
+        "recipe_magazine_good_cooking_magazine_vol_2"
+      ]
+    },
+    {
+      "category": "farming",
+      "items": [
+        "recipe_magazine_the_farming_magazine"
+      ]
+    },
+    {
+      "category": "electrical",
+      "items": [
+        "recipe_magazine_electronics_magazine_vol_1",
+        "recipe_magazine_electronics_magazine_vol_2",
+        "recipe_magazine_electronics_magazine_vol_3",
+        "recipe_magazine_electronics_magazine_vol_4",
+        "recipe_magazine_engineer_magazine_vol_1",
+        "recipe_magazine_engineer_magazine_vol_2",
+        "recipe_magazine_guerilla_radio_vol_1",
+        "recipe_magazine_guerilla_radio_vol_2",
+        "recipe_magazine_guerilla_radio_vol_3",
+        "recipe_magazine_how_to_use_generators"
+      ]
+    },
+    {
+      "category": "metalworking",
+      "items": [
+        "recipe_magazine_the_metalwork_magazine_vol_1",
+        "recipe_magazine_the_metalwork_magazine_vol_2",
+        "recipe_magazine_the_metalwork_magazine_vol_3",
+        "recipe_magazine_the_metalwork_magazine_vol_4"
+      ]
+    },
+    {
+      "category": "mechanics",
+      "items": [
+        "recipe_magazine_laines_auto_manual_standard_models",
+        "recipe_magazine_laines_auto_manual_commercial_models",
+        "recipe_magazine_laines_auto_manual_performance_models"
+      ]
+    },
+    {
+      "category": "fishing",
+      "items": [
+        "recipe_magazine_angler_usa_magazine_vol_1",
+        "recipe_magazine_angler_usa_magazine_vol_1"
+      ]
+    },
+    {
+      "category": "trapping",
+      "items": [
+        "recipe_magazine_the_hunter_magazine_vol_1",
+        "recipe_magazine_the_hunter_magazine_vol_2",
+        "recipe_magazine_the_hunter_magazine_vol_3"
+      ]
+    },
+    {
+      "category": "foraging",
+      "items": [
+        "recipe_magazine_the_herbalist"
+      ]
+    }
+  ],
+  "retail_vhs": [
+    {
+      "category": "carzone",
+      "items": [
+        "retail_vhs_carzone_e1",
+        "retail_vhs_carzone_e2",
+        "retail_vhs_carzone_e3"
+      ]
+    },
+    {
+      "category": "exposure_survival",
+      "items": [
+        "retail_vhs_exposure_survival_e1",
+        "retail_vhs_exposure_survival_e2",
+        "retail_vhs_exposure_survival_e3",
+        "retail_vhs_exposure_survival_e4",
+        "retail_vhs_exposure_survival_e5",
+        "retail_vhs_exposure_survival_e6",
+        "retail_vhs_exposure_survival_e7",
+        "retail_vhs_exposure_survival_e8"
+      ]
+    },
+    {
+      "category": "the_cook_show",
+      "items": [
+        "retail_vhs_the_cook_show_e1",
+        "retail_vhs_the_cook_show_e2",
+        "retail_vhs_the_cook_show_e3",
+        "retail_vhs_the_cook_show_e4",
+        "retail_vhs_the_cook_show_e5",
+        "retail_vhs_the_cook_show_e6",
+        "retail_vhs_the_cook_show_e7"
+      ]
+    },
+    {
+      "category": "woodcraft",
+      "items": [
+        "retail_vhs_woodcraft_e1",
+        "retail_vhs_woodcraft_e2",
+        "retail_vhs_woodcraft_e3",
+        "retail_vhs_woodcraft_e4",
+        "retail_vhs_woodcraft_e5",
+        "retail_vhs_woodcraft_e6",
+        "retail_vhs_woodcraft_e7"
+      ]
+    }
+  ],
+  "home_vhs": {
+    "items": [
+      "home_vhs_oscc_92",
+      "home_vhs_stock_cars",
+      "home_vhs_granny_nani",
+      "home_vhs_tailoring_101",
+      "home_vhs_nof_vid",
+      "home_vhs_no_9",
+      "home_vhs_muldraugh_av_club",
+      "home_vhs_tv_repair",
+      "home_vhs_rmfa",
+      "home_vhs_combat_wound_management"
+    ]
+  }
+}

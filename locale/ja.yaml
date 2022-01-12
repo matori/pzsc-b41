@@ -1,0 +1,206 @@
+---
+# language name
+
+language_name: 日本語
+# same as file name
+language_code: ja
+
+# web page texts
+
+title: PZ スキル強化アイテム チェックリスト
+description: Project Zomboid build 41向け。スキルブック・レシピ雑誌・スキルVHSのチェックリスト。
+language: 言語
+copy_button: 未所持アイテムのリストをコピー
+copy_succeed: コピーに成功しました。
+copy_failed: コピーに失敗しました。何かエラーが発生したようです。
+copy_text_title: 未所持アイテムのリスト
+edit_button: 編集
+reset_button: リセット
+add_button: 追加
+delete_button: 削除
+edit_name: データの名前を入力してください。
+new_data: 新規データの名前を入力してください。
+# do not change {{data_name}}
+reset_data: 'データ「{{data_name}}」はリセットされます。よろしいですか？'
+delete_data: 'データ「"{{data_name}}"」は削除されます。よろしいですか？'
+
+# types
+
+skill_books: スキルブック
+recipe_magazines: レシピ雑誌
+retail_vhs: VHS
+home_vhs: Home VHS
+
+# skill categories
+
+crafting: 製作技能
+survivalist: サバイバル技能
+
+# skill types
+
+carpentry: 大工仕事
+cooking: 調理
+farming: 耕作
+first_aid: 応急医療
+electrical: 電気工学
+metalworking: 溶接加工
+mechanics: 車両整備
+tailoring: 裁縫
+fishing: 釣り
+trapping: わな猟
+foraging: 採取
+
+# skill books
+
+skill_book_carpentry_for_beginners: 初心者の大工仕事入門
+skill_book_carpentry_for_intermediates: 中級者の大工仕事講座
+skill_book_advanced_carpentry: 上級者の大工仕事講座
+skill_book_expert_carpentry: 熟練者の大工仕事
+skill_book_master_carpentry: 匠の大工仕事
+
+skill_book_cooking_for_beginners: 初心者の料理入門
+skill_book_cooking_for_intermediates: 中級者の料理講座
+skill_book_advanced_cooking: 上級者の料理講座
+skill_book_expert_cooking: 熟練者の料理
+skill_book_master_cooking: 匠の料理
+
+skill_book_farming_for_beginners: 初心者の耕作入門
+skill_book_farming_for_intermediates: 中級者の耕作講座
+skill_book_advanced_farming: 上級者の耕作講座
+skill_book_expert_farming: 熟練者の耕作
+skill_book_master_farming: 匠の耕作
+
+skill_book_first_aid_for_beginners: 初心者の応急医療講座
+skill_book_first_aid_for_intermediates: 中級者の応急医療講座
+skill_book_advanced_first_aid: 上級者の応急医療講座
+skill_book_expert_first_aid: 熟練者の応急医療
+skill_book_master_first_aid: 匠の応急医療
+
+skill_book_electricity_for_beginners: 初心者の電気工学講座
+skill_book_electricity_for_intermediates: 中級者の電気工学講座
+skill_book_advanced_electricity: 上級者の電気工学講座
+skill_book_expert_electricity: 熟練者の電気工学
+skill_book_master_electricity: 匠の電気工学
+
+skill_book_metalwork_for_beginners: 初心者の溶接講座
+skill_book_metalwork_for_intermediates: 中級者の溶接講座
+skill_book_advanced_metalwork: 上級者の溶接講座
+skill_book_expert_metalwork: 熟練者の溶接
+skill_book_master_metalwork: 匠の溶接
+
+skill_book_mechanics_for_beginners: 初心者の車両整備講座
+skill_book_mechanics_for_intermediates: 中級者の車両整備講座
+skill_book_advanced_mechanics: 上級者の車両整備講座
+skill_book_expert_mechanics: 熟練者の車両整備
+skill_book_master_mechanics: 匠の車両整備
+
+skill_book_tailoring_for_beginners: 初心者の裁縫講座
+skill_book_tailoring_for_intermediates: 中級者の裁縫講座
+skill_book_advanced_tailoring: 上級者の裁縫講座
+skill_book_expert_tailoring: 熟練者の裁縫
+skill_book_master_tailoring: 匠の裁縫
+
+skill_book_fishing_for_beginners: 初心者の釣り入門
+skill_book_fishing_for_intermediates: 中級者の釣り講座
+skill_book_advanced_fishing: 上級者の釣り講座
+skill_book_expert_fishing: 熟練者の釣り
+skill_book_master_fishing: 匠の釣り
+
+skill_book_trapping_for_beginners: 初心者のわな猟講座
+skill_book_trapping_for_intermediates: 中級者のわな猟講座
+skill_book_advanced_trapping: 上級者のわな猟講座
+skill_book_expert_trapping: 熟練者のわな猟
+skill_book_master_trapping: 匠のわな猟
+
+skill_book_foraging_for_beginners: 初心者の採取講座
+skill_book_foraging_for_intermediates: 中級者の採取講座
+skill_book_advanced_foraging: 上級者の採取講座
+skill_book_expert_foraging: 熟練者の採取
+skill_book_master_foraging: 匠の採取
+
+# recipe magazines
+
+recipe_magazine_good_cooking_magazine_vol_1: 美味しい料理 Vol.1
+recipe_magazine_good_cooking_magazine_vol_2: 美味しい料理 Vol.2
+
+recipe_magazine_the_farming_magazine: 農作物を育てる
+
+recipe_magazine_electronics_magazine_vol_1: エレクトロニクス情報 Vol. 1
+recipe_magazine_electronics_magazine_vol_2: エレクトロニクス情報 Vol. 2
+recipe_magazine_electronics_magazine_vol_3: エレクトロニクス情報 Vol. 3
+recipe_magazine_electronics_magazine_vol_4: エレクトロニクス情報 Vol. 4
+
+recipe_magazine_engineer_magazine_vol_1: エンジニア情報 Vol. 1
+recipe_magazine_engineer_magazine_vol_2: エンジニア情報 Vol. 2
+
+recipe_magazine_guerilla_radio_vol_1: 無線機の製作 Vol. 1
+recipe_magazine_guerilla_radio_vol_2: 無線機の製作 Vol. 2
+recipe_magazine_guerilla_radio_vol_3: 無線機の製作 Vol. 3
+
+recipe_magazine_how_to_use_generators: 発電機の使い方
+
+recipe_magazine_the_metalwork_magazine_vol_1: 溶接技術 Vol. 1
+recipe_magazine_the_metalwork_magazine_vol_2: 溶接技術 Vol. 2
+recipe_magazine_the_metalwork_magazine_vol_3: 溶接技術 Vol. 3
+recipe_magazine_the_metalwork_magazine_vol_4: 溶接技術 Vol. 4
+
+recipe_magazine_laines_auto_manual_standard_models: レインズ自動車整備マニュアル（標準モデル）
+recipe_magazine_laines_auto_manual_commercial_models: レインズ自動車整備マニュアル（商用モデル）
+recipe_magazine_laines_auto_manual_performance_models: レインズ自動車整備マニュアル（高性能モデル）
+
+recipe_magazine_angler_usa_magazine_vol_1: アメリカの釣り Vol. 1
+recipe_magazine_angler_usa_magazine_vol_2: アメリカの釣り Vol. 2
+
+recipe_magazine_the_hunter_magazine_vol_1: 狩猟の友 Vol. 1
+recipe_magazine_the_hunter_magazine_vol_2: 狩猟の友 Vol. 2
+recipe_magazine_the_hunter_magazine_vol_3: 狩猟の友 Vol. 3
+
+recipe_magazine_the_herbalist: 薬草治療
+
+# retail VHS
+
+carzone: Carzone
+retail_vhs_carzone_e1: "VHS: Carzone E1"
+retail_vhs_carzone_e2: "VHS: Carzone E2"
+retail_vhs_carzone_e3: "VHS: Carzone E3"
+
+exposure_survival: Exposure Survival
+retail_vhs_exposure_survival_e1: "VHS: Exposure Survival E1"
+retail_vhs_exposure_survival_e2: "VHS: Exposure Survival E2"
+retail_vhs_exposure_survival_e3: "VHS: Exposure Survival E3"
+retail_vhs_exposure_survival_e4: "VHS: Exposure Survival E4"
+retail_vhs_exposure_survival_e5: "VHS: Exposure Survival E5"
+retail_vhs_exposure_survival_e6: "VHS: Exposure Survival E6"
+retail_vhs_exposure_survival_e7: "VHS: Exposure Survival E7"
+retail_vhs_exposure_survival_e8: "VHS: Exposure Survival E8"
+
+the_cook_show: The Cook Show
+retail_vhs_the_cook_show_e1: "VHS: The Cook Show E1"
+retail_vhs_the_cook_show_e2: "VHS: The Cook Show E2"
+retail_vhs_the_cook_show_e3: "VHS: The Cook Show E3"
+retail_vhs_the_cook_show_e4: "VHS: The Cook Show E4"
+retail_vhs_the_cook_show_e5: "VHS: The Cook Show E5"
+retail_vhs_the_cook_show_e6: "VHS: The Cook Show E6"
+retail_vhs_the_cook_show_e7: "VHS: The Cook Show E7"
+
+woodcraft: Woodcraft
+retail_vhs_woodcraft_e1: "VHS: Woodcraft E1"
+retail_vhs_woodcraft_e2: "VHS: Woodcraft E2"
+retail_vhs_woodcraft_e3: "VHS: Woodcraft E3"
+retail_vhs_woodcraft_e4: "VHS: Woodcraft E4"
+retail_vhs_woodcraft_e5: "VHS: Woodcraft E5"
+retail_vhs_woodcraft_e6: "VHS: Woodcraft E6"
+retail_vhs_woodcraft_e7: "VHS: Woodcraft E7"
+
+# home VHS
+
+home_vhs_oscc_92: "Home VHS: OSCC '92"
+home_vhs_stock_cars: "Home VHS: stock cars"
+home_vhs_granny_nani: "Home VHS: Granny Nani"
+home_vhs_tailoring_101: "Home VHS: Tailoring 101"
+home_vhs_nof_vid: "Home VHS: nof vid"
+home_vhs_no_9: "Home VHS: no 9"
+home_vhs_muldraugh_av_club: "Home VHS: Muldraugh AV Club"
+home_vhs_tv_repair: "Home VHS: TV repair"
+home_vhs_rmfa: "Home VHS: RMFA"
+home_vhs_combat_wound_management: "Home VHS: Combat Wound Management"

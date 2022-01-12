@@ -1,0 +1,207 @@
+---
+# language name
+
+language_name: English
+# same as file name
+language_code: en
+
+# web page texts
+
+title: PZ Skill Enhancement Items Checklist
+description: Checklists of skill books, recipe magazines, and skill VHS for Project Zomboid build 41.
+language: Language
+copy_button: Copy unowned items list
+copy_succeed: Copy succeed.
+copy_failed: Failed to copy. Some kind of error has occurred.
+copy_text_title: List of unowned items
+edit_button: Edit
+reset_button: Reset
+add_button: Add
+delete_button: Delete
+edit_name: Enter a new data name.
+new_data: Enter a name for the new data.
+# do not change {{data_name}}
+reset_data: 'Data "{{data_name}}" will be reset. Are you sure?'
+delete_data: 'Data "{{data_name}}" will be deleted. Are you sure?'
+
+# types
+
+skill_books: Skill Books
+recipe_magazines: Recipe Magazines
+vhs: VHS
+retail_vhs: Retail VHS
+home_vhs: Home VHS
+
+# skill categories
+
+crafting: Crafting
+survivalist: Survivalist
+
+# skill types
+
+carpentry: Carpentry
+cooking: Cooking
+farming: Farming
+first_aid: First Aid
+electrical: Electrical
+metalworking: Metalworking
+mechanics: Mechanics
+tailoring: Tailoring
+fishing: Fishing
+trapping: Trapping
+foraging: Foraging
+
+# skill books
+
+skill_book_carpentry_for_beginners: Carpentry for Beginners
+skill_book_carpentry_for_intermediates: Carpentry for Intermediates
+skill_book_advanced_carpentry: Advanced Carpentry
+skill_book_expert_carpentry: Expert Carpentry
+skill_book_master_carpentry: Master Carpentry
+
+skill_book_cooking_for_beginners: Cooking for Beginners
+skill_book_cooking_for_intermediates: Cooking for Intermediates
+skill_book_advanced_cooking: Advanced Cooking
+skill_book_expert_cooking: Expert Cooking
+skill_book_master_cooking: Master Cooking
+
+skill_book_farming_for_beginners: Farming for Beginners
+skill_book_farming_for_intermediates: Farming for Intermediates
+skill_book_advanced_farming: Advanced Farming
+skill_book_expert_farming: Expert Farming
+skill_book_master_farming: Master Farming
+
+skill_book_first_aid_for_beginners: First Aid for Beginners
+skill_book_first_aid_for_intermediates: First Aid for Intermediates
+skill_book_advanced_first_aid: Advanced First Aid
+skill_book_expert_first_aid: Expert First Aid
+skill_book_master_first_aid: Master First Aid
+
+skill_book_electricity_for_beginners: Electricity for Beginners
+skill_book_electricity_for_intermediates: Electricity for Intermediates
+skill_book_advanced_electricity: Advanced Electricity
+skill_book_expert_electricity: Expert Electricity
+skill_book_master_electricity: Master Electricity
+
+skill_book_metalwork_for_beginners: Metalwork for Beginners
+skill_book_metalwork_for_intermediates: Metalwork for Intermediates
+skill_book_advanced_metalwork: Advanced Metalwork
+skill_book_expert_metalwork: Expert Metalwork
+skill_book_master_metalwork: Master Metalwork
+
+skill_book_mechanics_for_beginners: Mechanics for Beginners
+skill_book_mechanics_for_intermediates: Mechanics for Intermediates
+skill_book_advanced_mechanics: Advanced Mechanics
+skill_book_expert_mechanics: Expert Mechanics
+skill_book_master_mechanics: Master Mechanics
+
+skill_book_tailoring_for_beginners: Tailoring for Beginners
+skill_book_tailoring_for_intermediates: Tailoring for Intermediates
+skill_book_advanced_tailoring: Advanced Tailoring
+skill_book_expert_tailoring: Expert Tailoring
+skill_book_master_tailoring: Master Tailoring
+
+skill_book_fishing_for_beginners: Fishing for Beginners
+skill_book_fishing_for_intermediates: Fishing for Intermediates
+skill_book_advanced_fishing: Advanced Fishing
+skill_book_expert_fishing: Expert Fishing
+skill_book_master_fishing: Master Fishing
+
+skill_book_trapping_for_beginners: Trapping for Beginners
+skill_book_trapping_for_intermediates: Trapping for Intermediates
+skill_book_advanced_trapping: Advanced Trapping
+skill_book_expert_trapping: Expert Trapping
+skill_book_master_trapping: Master Trapping
+
+skill_book_foraging_for_beginners: Foraging for Beginners
+skill_book_foraging_for_intermediates: Foraging for Intermediates
+skill_book_advanced_foraging: Advanced Foraging
+skill_book_expert_foraging: Expert Foraging
+skill_book_master_foraging: Master Foraging
+
+# recipe magazines
+
+recipe_magazine_good_cooking_magazine_vol_1: Good Cooking Magazine Vol. 1
+recipe_magazine_good_cooking_magazine_vol_2: Good Cooking Magazine Vol. 2
+
+recipe_magazine_the_farming_magazine: The Farming Magazine
+
+recipe_magazine_electronics_magazine_vol_1: Electronics Magazine Vol. 1
+recipe_magazine_electronics_magazine_vol_2: Electronics Magazine Vol. 2
+recipe_magazine_electronics_magazine_vol_3: Electronics Magazine Vol. 3
+recipe_magazine_electronics_magazine_vol_4: Electronics Magazine Vol. 4
+
+recipe_magazine_engineer_magazine_vol_1: Engineer Magazine Vol. 1
+recipe_magazine_engineer_magazine_vol_2: Engineer Magazine Vol. 2
+
+recipe_magazine_guerilla_radio_vol_1: Guerilla Radio Vol. 1
+recipe_magazine_guerilla_radio_vol_2: Guerilla Radio Vol. 2
+recipe_magazine_guerilla_radio_vol_3: Guerilla Radio Vol. 3
+
+recipe_magazine_how_to_use_generators: How to Use Generators
+
+recipe_magazine_the_metalwork_magazine_vol_1: The Metalwork Magazine Vol. 1
+recipe_magazine_the_metalwork_magazine_vol_2: The Metalwork Magazine Vol. 2
+recipe_magazine_the_metalwork_magazine_vol_3: The Metalwork Magazine Vol. 3
+recipe_magazine_the_metalwork_magazine_vol_4: The Metalwork Magazine Vol. 4
+
+recipe_magazine_laines_auto_manual_standard_models: Laines Auto Manual - Standard Models
+recipe_magazine_laines_auto_manual_commercial_models: Laines Auto Manual - Commercial Models
+recipe_magazine_laines_auto_manual_performance_models: Laines Auto Manual - Performance Models
+
+recipe_magazine_angler_usa_magazine_vol_1: Angler USA Magazine Vol. 1
+recipe_magazine_angler_usa_magazine_vol_2: Angler USA Magazine Vol. 2
+
+recipe_magazine_the_hunter_magazine_vol_1: The Hunter Magazine Vol. 1
+recipe_magazine_the_hunter_magazine_vol_2: The Hunter Magazine Vol. 2
+recipe_magazine_the_hunter_magazine_vol_3: The Hunter Magazine Vol. 3
+
+recipe_magazine_the_herbalist: The Herbalist
+
+# retail VHS
+
+carzone: Carzone
+retail_vhs_carzone_e1: "VHS: Carzone E1"
+retail_vhs_carzone_e2: "VHS: Carzone E2"
+retail_vhs_carzone_e3: "VHS: Carzone E3"
+
+exposure_survival: Exposure Survival
+retail_vhs_exposure_survival_e1: "VHS: Exposure Survival E1"
+retail_vhs_exposure_survival_e2: "VHS: Exposure Survival E2"
+retail_vhs_exposure_survival_e3: "VHS: Exposure Survival E3"
+retail_vhs_exposure_survival_e4: "VHS: Exposure Survival E4"
+retail_vhs_exposure_survival_e5: "VHS: Exposure Survival E5"
+retail_vhs_exposure_survival_e6: "VHS: Exposure Survival E6"
+retail_vhs_exposure_survival_e7: "VHS: Exposure Survival E7"
+retail_vhs_exposure_survival_e8: "VHS: Exposure Survival E8"
+
+the_cook_show: The Cook Show
+retail_vhs_the_cook_show_e1: "VHS: The Cook Show E1"
+retail_vhs_the_cook_show_e2: "VHS: The Cook Show E2"
+retail_vhs_the_cook_show_e3: "VHS: The Cook Show E3"
+retail_vhs_the_cook_show_e4: "VHS: The Cook Show E4"
+retail_vhs_the_cook_show_e5: "VHS: The Cook Show E5"
+retail_vhs_the_cook_show_e6: "VHS: The Cook Show E6"
+retail_vhs_the_cook_show_e7: "VHS: The Cook Show E7"
+
+woodcraft: Woodcraft
+retail_vhs_woodcraft_e1: "VHS: Woodcraft E1"
+retail_vhs_woodcraft_e2: "VHS: Woodcraft E2"
+retail_vhs_woodcraft_e3: "VHS: Woodcraft E3"
+retail_vhs_woodcraft_e4: "VHS: Woodcraft E4"
+retail_vhs_woodcraft_e5: "VHS: Woodcraft E5"
+retail_vhs_woodcraft_e6: "VHS: Woodcraft E6"
+retail_vhs_woodcraft_e7: "VHS: Woodcraft E7"
+
+# home VHS
+
+home_vhs_oscc_92: "Home VHS: OSCC '92"
+home_vhs_stock_cars: "Home VHS: stock cars"
+home_vhs_granny_nani: "Home VHS: Granny Nani"
+home_vhs_tailoring_101: "Home VHS: Tailoring 101"
+home_vhs_nof_vid: "Home VHS: nof vid"
+home_vhs_no_9: "Home VHS: no 9"
+home_vhs_muldraugh_av_club: "Home VHS: Muldraugh AV Club"
+home_vhs_tv_repair: "Home VHS: TV repair"
+home_vhs_rmfa: "Home VHS: RMFA"
+home_vhs_combat_wound_management: "Home VHS: Combat Wound Management"

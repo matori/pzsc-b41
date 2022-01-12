@@ -1,0 +1,5 @@
+/node_modules/
+/public/build/
+/public/locale/
+/src/data/defaultLanguage.json
+/src/data/languages.json
