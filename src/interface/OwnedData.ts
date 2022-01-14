@@ -1,4 +1,4 @@
-export interface ownedData {
+export interface OwnedData {
   name: string;
   skill_book_carpentry_for_beginners: boolean;
   skill_book_carpentry_for_intermediates: boolean;

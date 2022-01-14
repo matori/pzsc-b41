@@ -4,11 +4,14 @@ import { l10n } from '../store/l10n';
 import { activeIndex } from '../store/activeIndex';
 import { ownedItems } from '../store/owned';
 import { config } from '../config';
+import type { OwnedData } from '../interface/OwnedData';
+import type { TranslationData } from '../interface/TranslationData';
 
 function onClickResetData(): void {
-  const targetIndex = get(activeIndex);
-  const currentDataName = get(ownedItems)[targetIndex].name;
-  const messageBase = get(l10n).reset_data;
+  const targetIndex: number = get(activeIndex);
+  const currentDataName: string = get(ownedItems)[targetIndex].name;
+  const messageBase: string = get(l10n).reset_data;
+
   const message = messageBase.replace('{{data_name}}', currentDataName);
   const confirmation = confirm(message);
   if (confirmation) {
@@ -16,15 +19,16 @@ function onClickResetData(): void {
   }
 }
 
-function onChangeIndex(event): void {
-  const index = parseInt(event.target.selectedIndex);
-  activeIndex.changeIndex(index);
+function onChangeIndex(event: Event): void {
+  const { selectedIndex } = event.target as HTMLSelectElement;
+  activeIndex.changeIndex(selectedIndex);
 }
 
 function onClickEditData(): void {
-  const targetIndex = get(activeIndex);
-  const message = get(l10n).edit_name;
-  const currentName = get(ownedItems)[targetIndex].name;
+  const targetIndex: number = get(activeIndex);
+  const message: string = get(l10n).edit_name;
+  const currentName: string = get(ownedItems)[targetIndex].name;
+
   const newName: string | null = prompt(message, currentName);
   if (newName.trim()) {
     const targetIndex = get(activeIndex);
@@ -41,9 +45,10 @@ function onClickAddData(): void {
 }
 
 function onClickDeleteData(): void {
-  const targetIndex = get(activeIndex);
-  const currentDataName = get(ownedItems)[targetIndex].name;
-  const messageBase = get(l10n).delete_data;
+  const targetIndex: number = get(activeIndex);
+  const currentDataName: string = get(ownedItems)[targetIndex].name;
+  const messageBase: string = get(l10n).delete_data;
+
   const message = messageBase.replace('{{data_name}}', currentDataName);
   const confirmation = confirm(message);
   if (confirmation) {
@@ -52,21 +57,23 @@ function onClickDeleteData(): void {
 }
 
 function copyUnownedItems(): void {
-  const categories = ['skill_book_', 'recipe_magazine_', 'retail_vhs_', 'home_vhs_'];
-  const headings = ['skill_books', 'recipe_magazines', 'retail_vhs', 'home_vhs'];
+  const categories: string[] = ['skill_book_', 'recipe_magazine_', 'retail_vhs_', 'home_vhs_'];
+  const headings: string[] = ['skill_books', 'recipe_magazines', 'retail_vhs', 'home_vhs'];
 
-  const currentIndex = get(activeIndex);
-  const currentOwned = get(ownedItems)[currentIndex];
-  const localization = get(l10n);
+  const currentIndex: number = get(activeIndex);
+  const currentOwned: OwnedData = get(ownedItems)[currentIndex];
+  const localization: TranslationData = get(l10n);
 
   const title = `# ${get(l10n).copy_text_title}`;
 
-  const body = categories.reduce((result, category, index) => {
+  const body = categories.reduce((result: string, category: string, index: number): string => {
     // カテゴリー単位のデータ
-    const categoryItems = Object.keys(currentOwned).filter(key => key.indexOf(category) === 0);
-    const unowned = categoryItems.filter(item => currentOwned[item] === false);
+    const categoryItems: string[] = Object.keys(currentOwned).filter(key => key.indexOf(category) === 0);
+    const unowned: string[] = categoryItems.filter(item => currentOwned[item] === false);
+
     const heading = `## ${localization[headings[index]]}`;
-    const list = unowned.reduce((listItem, key) => `${listItem}\n- ${localization[key]}`, '');
+    const list = unowned.reduce((listItem: string, key: string): string => `${listItem}\n- ${localization[key]}`, '');
+
     return `${result}\n${heading}\n${list}\n`;
   }, '');
   const result = `${title}\n${body}`;
@@ -74,7 +81,7 @@ function copyUnownedItems(): void {
   writeToClipBoard(result);
 }
 
-async function writeToClipBoard(text) {
+async function writeToClipBoard(text: string): Promise<void> {
   try {
     await navigator.clipboard.writeText(text);
     alert('Copy succeed.');
@@ -138,15 +145,15 @@ async function writeToClipBoard(text) {
     </svg>
     {$l10n.delete_button}
   </button>
-    <button
-      type="button"
-      class="DataManager-button -copy"
-      on:click={copyUnownedItems}>
-      <svg class="DataManager-icon">
-        <use href="#icon-copy"/>
-      </svg>
-      {$l10n.copy_button}
-    </button>
+  <button
+    type="button"
+    class="DataManager-button -copy"
+    on:click={copyUnownedItems}>
+    <svg class="DataManager-icon">
+      <use href="#icon-copy"/>
+    </svg>
+    {$l10n.copy_button}
+  </button>
 </div>
 
 <style lang="scss">

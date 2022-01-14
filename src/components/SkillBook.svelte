@@ -1,7 +1,8 @@
 <script lang="ts">
 import ItemSection from './ItemSection.svelte';
+import type { SkillBook } from '../interface/ItemsData';
 
-let list: [];
+let list: SkillBook[];
 export { list };
 </script>
 

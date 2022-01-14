@@ -3,7 +3,7 @@ import { l10n } from '../store/l10n';
 import ItemList from './ItemList.svelte';
 
 let heading: string;
-let list: [];
+let list: string[];
 
 export { heading, list };
 </script>
@@ -30,6 +30,6 @@ export { heading, list };
   margin: 0;
 }
 
-.ItemSection-body {
-}
+//.ItemSection-body {
+//}
 </style>

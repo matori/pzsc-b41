@@ -1,6 +1,3 @@
-<script lang="ts">
-</script>
-
 <footer class="Footer">
   <dl class="Footer-list">
     <div>

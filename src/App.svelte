@@ -3,7 +3,7 @@ import { l10n } from './store/l10n';
 import { getLanguage } from './utils/getLanguage';
 import LoadingMessage from './components/LoadingMessage.svelte';
 import Content from './components/Content.svelte';
-import type { languageData } from './interface/languageData';
+import type { TranslationData } from './interface/TranslationData';
 
 const targetLanguage = getLanguage(location.href);
 
@@ -11,7 +11,7 @@ if (targetLanguage === 'en') {
   history.replaceState(null, '', './');
 }
 
-l10n.subscribe((languageFile: languageData): void => {
+l10n.subscribe((languageFile: TranslationData): void => {
   document.documentElement.setAttribute('lang', languageFile.language_code);
   document.title = languageFile.title;
 
