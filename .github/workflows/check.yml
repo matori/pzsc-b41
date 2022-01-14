@@ -1,0 +1,27 @@
+name: Check and Build
+
+env:
+  TZ: 'Asia/Tokyo'
+
+on:
+  push:
+    branches-ignore:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.13.1'
+      - name: Install npm dependencies
+        run: npm ci
+      - name: Run build task
+        run: npm run build
+      - name: Run check task
+        run: npm run check
