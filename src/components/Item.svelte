@@ -8,8 +8,10 @@ let item: string;
 
 export { item };
 
-function onChangeOwned(event, item) {
-  ownedItems.updateData(get(activeIndex), item, event.target.checked);
+function onChangeOwned(event: Event, item: string):void {
+  const target = event.target as HTMLInputElement;
+  const checked = target.checked;
+  ownedItems.updateData(get(activeIndex), item, checked);
 }
 </script>
 

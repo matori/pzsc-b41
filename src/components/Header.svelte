@@ -9,7 +9,7 @@ import LanguageSelector from './LanguageSelector.svelte';
     {$l10n.description}
   </p>
   <p class="Header-languageSelector">
-    <LanguageSelector class="language"/>
+    <LanguageSelector/>
   </p>
 </header>
 

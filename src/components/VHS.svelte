@@ -1,10 +1,9 @@
 <script lang="ts">
 import ItemSection from './ItemSection.svelte';
+import type { RetailVhs, HomeVhs } from '../interface/ItemsData';
 
-let retailVHS: [], homeVHS: [];
+let retailVHS: RetailVhs[], homeVHS: HomeVhs;
 export { retailVHS, homeVHS };
-
-
 </script>
 
 <div class="VHS">

@@ -5,7 +5,6 @@ import DataManager from './DataManager.svelte';
 import SkillBook from './SkillBook.svelte';
 import RecipeMagazine from './RecipeMagazine.svelte';
 import VHS from './VHS.svelte';
-
 </script>
 
 <main class="Main">
@@ -30,8 +29,8 @@ import VHS from './VHS.svelte';
 @use "../scss/functions" as *;
 @use "../scss/mixins" as *;
 
-.Main {
-}
+//.Main {
+//}
 
 .Main-body {
   display: grid;

@@ -1,7 +1,7 @@
 <script lang="ts">
 import Item from './Item.svelte';
 
-let list: [];
+let list: string[];
 
 export { list };
 </script>

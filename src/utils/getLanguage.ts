@@ -1,4 +1,4 @@
-import languagesList from '../data/languages.json';
+import languagesList from '../data/languagesList.json';
 
 function getLanguage(url: string): string {
   const languageCodeFromURL = getLanguageFromURL(url);

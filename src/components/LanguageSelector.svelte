@@ -1,13 +1,21 @@
 <script lang="ts">
 import { l10n } from '../store/l10n';
-import languagesList from '../data/languages.json';
+import languagesList from '../data/languagesList.json';
+import type { LanguagesData } from '../interface/LanguagesData';
 
-function onChangeLanguage(event: Event): void {
-  const { value } = event.target;
-  l10n.changeLanguage(value);
-  document.documentElement.setAttribute('lang', value);
-  const urlParam = value === 'en' ? '' : `?lang=${value}`;
-  location.href = location.origin + location.pathname + urlParam;
+const languages: LanguagesData[] = languagesList;
+
+async function onChangeLanguage(event: Event): Promise<void> {
+  const { value } = event.target as HTMLSelectElement;
+  try {
+    await l10n.changeLanguage(value);
+    const urlParam = value === 'en' ? '/' : `?lang=${value}`;
+    history.pushState(null, '', urlParam);
+  } catch (exception) {
+    alert('Failed to load the language file. Content will be displayed in English.');
+    await l10n.changeLanguage('en');
+    history.pushState(null, '', '/');
+  }
 }
 </script>
 
@@ -17,7 +25,7 @@ function onChangeLanguage(event: Event): void {
     class="LanguageSelector-selectBox"
     on:change={onChangeLanguage}
   >
-    {#each languagesList as language}
+    {#each languages as language}
       <option
         value="{language.code}"
         selected="{$l10n.language_code === language.code}"
@@ -38,10 +46,10 @@ function onChangeLanguage(event: Event): void {
   column-gap: get-lines(0.5);
 }
 
-.LanguageSelector-labelText {
-
-}
-
-.LanguageSelector-selectBox {
-}
+//.LanguageSelector-labelText {
+//
+//}
+//
+//.LanguageSelector-selectBox {
+//}
 </style>

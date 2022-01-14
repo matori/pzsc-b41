@@ -1,7 +1,8 @@
 <script lang="ts">
 import ItemSection from './ItemSection.svelte';
+import type {RecipeMagazine} from '../interface/ItemsData'
 
-let list: [];
+let list: RecipeMagazine[];
 export { list };
 </script>
 

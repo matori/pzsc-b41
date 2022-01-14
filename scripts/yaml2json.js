@@ -43,6 +43,6 @@ yamlFiles.forEach(file => {
 
 const sortedLanguagesList = languages.sort((a, b) => a.name.localeCompare(b.name));
 const languagesJson = JSON.stringify(sortedLanguagesList);
-const languageJsonOutputPath = path.resolve(dataDir, `languages.json`);
+const languageJsonOutputPath = path.resolve(dataDir, `languagesList.json`);
 fs.writeFileSync(languageJsonOutputPath, languagesJson, 'utf8');
 
